@@ -1,0 +1,553 @@
+{
+  "PF2E_AFFLICTION_VT": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Venoms & Toxins",
+      "Description": "An original bilingual poison library for PF2E Affliction Forge with natural venoms, alchemical toxins, and semantic Creature Forge tags.",
+      "Library": "Venoms & Toxins",
+      "LibraryDescription": "Original natural and artificial poisons, fully tagged for semantic Creature Forge assignment.",
+      "SyncFailed": "Venoms & Toxins could not synchronize its library. See console."
+    },
+    "Content": {
+      "cellar-spider-venom": {
+        "Name": "Cellar Spider Venom",
+        "Description": "The venom of small cellar hunters causes burning pain and temporary unsteadiness in the limbs.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d4 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d4 poison damage and clumsy 1."
+        }
+      },
+      "nettle-sap": {
+        "Name": "Nettle Sap",
+        "Description": "A concentrated plant sap irritates skin and mucous membranes, making the affected area swell.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Sickened 1 and clumsy 1."
+        }
+      },
+      "dune-scorpion-venom": {
+        "Name": "Dune Scorpion Venom",
+        "Description": "The clear venom of a small desert scorpion makes muscles tremble and joints stiffen.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d4 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 poison damage and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 poison damage, clumsy 1, and enfeebled 1."
+        }
+      },
+      "dockside-ratbane": {
+        "Name": "Dockside Ratbane",
+        "Description": "A bitter pest poison that is difficult to notice in food and quickly causes stomach cramps.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 poison damage and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 poison damage and sickened 2."
+        }
+      },
+      "marsh-viper-venom": {
+        "Name": "Marsh Viper Venom",
+        "Description": "This greenish snake venom impairs muscle control and causes painful cramping.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 poison damage and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 poison damage, enfeebled 1, and clumsy 1."
+        }
+      },
+      "smokeleaf-toxin": {
+        "Name": "Smokeleaf Toxin",
+        "Description": "Dried smokeleaf produces an acrid haze when burned, irritating eyes and lungs.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Dazzled by irritation."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Dazzled and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 poison damage, dazzled, and sickened 1."
+        }
+      },
+      "cobalt-frog-secretion": {
+        "Name": "Cobalt Frog Secretion",
+        "Description": "The skin of a bright blue frog secretes a neurotoxin that distorts touch and balance.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 poison damage and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, clumsy 1, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 poison damage, clumsy 2, and stupefied 1."
+        }
+      },
+      "blackglass-needle-poison": {
+        "Name": "Blackglass Needle Poison",
+        "Description": "A thin alchemical poison formulated for needles, arrows, and narrow blades.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 poison damage and enfeebled 2."
+        }
+      },
+      "cave-widow-venom": {
+        "Name": "Cave Widow Venom",
+        "Description": "The venom of pale cave spiders slows nerve conduction and makes even small movements uncertain.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, clumsy 1, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, clumsy 2, and slowed 1."
+        }
+      },
+      "choking-lime-toxin": {
+        "Name": "Choking Lime Toxin",
+        "Description": "This fine alchemical powder draws moisture from the mouth and airways, triggering violent coughing.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 poison damage and sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, sickened 1, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, sickened 2, and stupefied 1."
+        }
+      },
+      "reefspine-venom": {
+        "Name": "Reefspine Venom",
+        "Description": "The venom of an iridescent reef fish burns in the wound and sends muscles into painful spasms.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison damage and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage and enfeebled 2."
+        }
+      },
+      "crimson-ichor": {
+        "Name": "Crimson Ichor",
+        "Description": "A sticky weapon coating that ruptures tiny blood vessels and repeatedly reopens the wound.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage and 1d4 persistent bleed damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison damage and 1d6 persistent bleed damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, 1d6 persistent bleed damage, and drained 1."
+        }
+      },
+      "dusk-adder-venom": {
+        "Name": "Dusk Adder Venom",
+        "Description": "The dark venom of this nocturnal snake dulls the senses and gradually paralyzes the muscles.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison damage, stupefied 1, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, stupefied 2, and slowed 1."
+        }
+      },
+      "fever-dust": {
+        "Name": "Fever Dust",
+        "Description": "A yellow powder that immediately causes fever, dizziness, and muscle tremors when inhaled.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage and sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison damage, sickened 1, and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 poison damage, sickened 2, and clumsy 1."
+        }
+      },
+      "carrion-wasp-venom": {
+        "Name": "Carrion Wasp Venom",
+        "Description": "The venom of large carrion wasps breaks down tissue and weakens circulation within a few heartbeats.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 poison damage, drained 1, and enfeebled 1."
+        }
+      },
+      "moonmilk-toxin": {
+        "Name": "Moonmilk Toxin",
+        "Description": "A toxic mineral paste from deep caves causes numbness and a disturbing loss of bodily awareness.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Clumsy 2 and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, clumsy 2, and stupefied 2."
+        }
+      },
+      "obsidian-scorpion-venom": {
+        "Name": "Obsidian Scorpion Venom",
+        "Description": "The pitch-black venom of a volcanic scorpion sends stabbing heat through nerves and muscles.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage and 1d6 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage, 1d6 fire damage, and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 poison damage, 2d6 fire damage, and clumsy 2."
+        }
+      },
+      "assassins-sap": {
+        "Name": "Assassin's Sap",
+        "Description": "A nearly colorless resin used to coat weapons, quickly making a victim's legs feel leaden.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 poison damage, clumsy 1, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 poison damage, clumsy 2, and slowed 1."
+        }
+      },
+      "glassfang-venom": {
+        "Name": "Glassfang Venom",
+        "Description": "The venom of a rare translucent snake bursts blood vessels beneath the skin and weakens the limbs.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 poison damage and 1d6 persistent bleed damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 poison damage, 1d6 persistent bleed damage, and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 poison damage, 2d6 persistent bleed damage, and enfeebled 1."
+        }
+      },
+      "grave-lotus-distillate": {
+        "Name": "Grave Lotus Distillate",
+        "Description": "Distilled from pale blossoms, this poison lays a cold veil over thought and circulation.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1 and sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 void damage, stupefied 2, and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 void damage, stupefied 2, and drained 1."
+        }
+      },
+      "storm-eel-toxin": {
+        "Name": "Storm Eel Toxin",
+        "Description": "An electrifying neurotoxin from great ocean eels makes muscles spasm uncontrollably.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 poison damage, 2d6 electricity damage, and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 poison damage, 2d6 electricity damage, and clumsy 2."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 poison damage, 3d6 electricity damage, clumsy 2, and slowed 1."
+        }
+      },
+      "widowmaker-compound": {
+        "Name": "Widowmaker Compound",
+        "Description": "A professional blade poison that attacks circulation and quickly wears down even robust targets.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 poison damage and drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 poison damage, drained 1, and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 poison damage, drained 2, and enfeebled 1."
+        }
+      },
+      "ash-manticore-venom": {
+        "Name": "Ash Manticore Venom",
+        "Description": "This gritty venom from the tail spines of volcanic manticores burns hot and makes the limbs heavy.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 poison damage and 2d6 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 poison damage, 2d6 fire damage, and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 poison damage, 3d6 fire damage, and enfeebled 2."
+        }
+      },
+      "basilisk-bile": {
+        "Name": "Basilisk Bile",
+        "Description": "The caustic bile of a basilisk attacks muscles and nerves, making movement increasingly rigid.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 poison damage, 2d6 acid damage, and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 poison damage, 2d6 acid damage, clumsy 2, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "8d6 poison damage, 3d6 acid damage, clumsy 2, and slowed 2."
+        }
+      },
+      "red-crown-serpent-venom": {
+        "Name": "Red-Crown Serpent Venom",
+        "Description": "The potent venom of this mountain snake disrupts heartbeat and balance and can leave victims nearly unable to move.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 poison damage, clumsy 1, and enfeebled 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "7d6 poison damage, clumsy 2, enfeebled 2, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "8d6 poison damage, clumsy 2, enfeebled 2, and slowed 2."
+        }
+      },
+      "emperor-scorpion-venom": {
+        "Name": "Emperor Scorpion Venom",
+        "Description": "The heavy venom of a giant emperor scorpion causes tissue damage and collapse of circulation.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 poison damage and drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "8d6 poison damage, drained 2, and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "10d6 poison damage, drained 2, and enfeebled 2."
+        }
+      },
+      "voidwasp-venom": {
+        "Name": "Voidwasp Venom",
+        "Description": "The venom of extraplanar wasps chills the blood while gnawing at vitality and perception.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 poison damage, 3d6 void damage, and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "8d6 poison damage, 3d6 void damage, stupefied 2, and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "10d6 poison damage, 4d6 void damage, stupefied 2, and drained 2."
+        }
+      },
+      "wyrm-gall-toxin": {
+        "Name": "Wyrm Gall Toxin",
+        "Description": "Refined from the gall of a poison-resistant dragon, this toxin reacts violently to magical energy in the body.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "7d6 poison damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "9d6 poison damage, stupefied 2, and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "11d6 poison damage, stupefied 3, and sickened 2."
+        }
+      },
+      "nightglass-poison": {
+        "Name": "Nightglass Poison",
+        "Description": "An occult blade poison whose black crystals fracture sensation and break thoughts into false images.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "8d6 poison damage, 3d6 mental damage, and dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "10d6 poison damage, 3d6 mental damage, stupefied 2, and dazzled."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "12d6 poison damage, 4d6 mental damage, stupefied 2, and confused."
+        }
+      },
+      "starved-god-ichor": {
+        "Name": "Starved God Ichor",
+        "Description": "This forbidden poison is refined from alien ichor and makes flesh wither while craving impossible nourishment.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "8d6 poison damage, 4d6 void damage, and sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "10d6 poison damage, 4d6 void damage, sickened 2, and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "12d6 poison damage, 5d6 void damage, sickened 2, and drained 2."
+        }
+      },
+      "eternity-serpent-venom": {
+        "Name": "Eternity Serpent Venom",
+        "Description": "The venom of a planar-bound giant serpent makes each heartbeat feel endless, tearing apart bodily awareness and the sense of time.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "9d6 poison damage, 4d6 mental damage, and slowed 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "11d6 poison damage, 5d6 mental damage, slowed 2, and stupefied 2."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "13d6 poison damage, 6d6 mental damage, slowed 2, stupefied 3, and confused."
+        }
+      },
+      "sovereign-toxin": {
+        "Name": "Sovereign Toxin",
+        "Description": "A near-mythic assassination poison. It dismantles the body layer by layer until heart, nerves, and breath fail together.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "10d6 poison damage, drained 1, and enfeebled 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "12d6 poison damage, drained 2, enfeebled 2, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "14d6 poison damage, drained 3, enfeebled 2, and slowed 2."
+        },
+        "Stage4": {
+          "Name": "Stage 4",
+          "Description": "16d6 poison damage and a death effect."
+        }
+      }
+    }
+  }
+}

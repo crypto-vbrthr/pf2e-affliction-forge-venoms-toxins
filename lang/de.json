@@ -1,0 +1,553 @@
+{
+  "PF2E_AFFLICTION_VT": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Venoms & Toxins",
+      "Description": "Eine originale, zweisprachige Giftbibliothek für PF2E Affliction Forge mit natürlichen Venomen, alchemistischen Toxinen und semantischen Creature-Forge-Tags.",
+      "Library": "Gifte & Toxine",
+      "LibraryDescription": "Originale natürliche und künstliche Gifte, vollständig für die semantische Zuordnung durch die Creature Forge getaggt.",
+      "SyncFailed": "Venoms & Toxins konnte seine Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "cellar-spider-venom": {
+        "Name": "Kellerspinnengift",
+        "Description": "Das Gift kleiner Kellerjäger verursacht brennende Schmerzen und vorübergehende Unsicherheit in den Gliedmaßen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W4 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W4 Giftschaden und Unbeholfen 1."
+        }
+      },
+      "nettle-sap": {
+        "Name": "Brennnesselsaft",
+        "Description": "Ein konzentrierter Pflanzensaft reizt Haut und Schleimhäute und lässt die betroffene Stelle anschwellen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Übel 1 und Unbeholfen 1."
+        }
+      },
+      "dune-scorpion-venom": {
+        "Name": "Dünenskorpiongift",
+        "Description": "Das klare Gift eines kleinen Wüstenskorpions lässt Muskeln zittern und Gelenke versteifen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W4 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 Giftschaden und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1W6 Giftschaden, Unbeholfen 1 und Kraftlos 1."
+        }
+      },
+      "dockside-ratbane": {
+        "Name": "Hafenrattenmittel",
+        "Description": "Ein bitteres Schädlingsgift, das in Speisen kaum auffällt und rasch Magenkrämpfe auslöst.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 Giftschaden und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1W6 Giftschaden und Übel 2."
+        }
+      },
+      "marsh-viper-venom": {
+        "Name": "Sumpfvipergift",
+        "Description": "Dieses grünliche Schlangengift hemmt die Muskelkontrolle und verursacht schmerzhafte Krämpfe.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 Giftschaden und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 Giftschaden, Kraftlos 1 und Unbeholfen 1."
+        }
+      },
+      "smokeleaf-toxin": {
+        "Name": "Rauchblattgift",
+        "Description": "Getrocknete Rauchblätter erzeugen beim Verbrennen einen beißenden Dunst, der Augen und Lunge reizt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Deine gereizten Augen machen dich Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Geblendet und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1W6 Giftschaden, Geblendet und Übel 1."
+        }
+      },
+      "cobalt-frog-secretion": {
+        "Name": "Kobaltfroschsekret",
+        "Description": "Die Haut eines leuchtend blauen Frosches sondert ein Nervengift ab, das Berührung und Gleichgewicht verfälscht.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 Giftschaden und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Giftschaden, Unbeholfen 1 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 Giftschaden, Unbeholfen 2 und Benommen 1."
+        }
+      },
+      "blackglass-needle-poison": {
+        "Name": "Schwarzglas-Nadelgift",
+        "Description": "Ein dünnflüssiges alchemistisches Gift, das für Nadeln, Pfeile und schmale Klingen entwickelt wurde.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Giftschaden und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 Giftschaden und Kraftlos 2."
+        }
+      },
+      "cave-widow-venom": {
+        "Name": "Höhlenwittwengift",
+        "Description": "Das Gift bleicher Höhlenspinnen verlangsamt die Reizleitung und macht selbst kleine Bewegungen unsicher.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Giftschaden und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Giftschaden, Unbeholfen 1 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Giftschaden, Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "choking-lime-toxin": {
+        "Name": "Würgekalk",
+        "Description": "Dieses feine alchemistische Pulver bindet Feuchtigkeit in Mund und Atemwegen und löst heftigen Husten aus.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 Giftschaden und Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Giftschaden, Übel 1 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Giftschaden, Übel 2 und Benommen 1."
+        }
+      },
+      "reefspine-venom": {
+        "Name": "Riffstachelgift",
+        "Description": "Das Gift eines bunt schillernden Rifffisches brennt in der Wunde und lässt Muskeln krampfartig verkrampfen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Giftschaden und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Giftschaden und Kraftlos 2."
+        }
+      },
+      "crimson-ichor": {
+        "Name": "Purpursekret",
+        "Description": "Ein klebriger Waffenüberzug, der kleine Blutgefäße aufreißt und die Wunde immer wieder aufbrechen lässt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Giftschaden und 1W4 anhaltender Blutungsschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Giftschaden und 1W6 anhaltender Blutungsschaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Giftschaden, 1W6 anhaltender Blutungsschaden und Ausgelaugt 1."
+        }
+      },
+      "dusk-adder-venom": {
+        "Name": "Dämmerottergift",
+        "Description": "Das dunkle Gift dieser nachtaktiven Schlange dämpft die Sinne und lähmt langsam die Muskulatur.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Giftschaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Giftschaden, Benommen 1 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Giftschaden, Benommen 2 und Verlangsamt 1."
+        }
+      },
+      "fever-dust": {
+        "Name": "Fieberstaub",
+        "Description": "Ein gelblicher Staub, der beim Einatmen sofort Fieber, Schwindel und Muskelzittern hervorruft.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Giftschaden und Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Giftschaden, Übel 1 und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Giftschaden, Übel 2 und Unbeholfen 1."
+        }
+      },
+      "carrion-wasp-venom": {
+        "Name": "Aaswespengift",
+        "Description": "Das Gift großer Aaswespen zersetzt Gewebe und schwächt den Kreislauf in wenigen Herzschlägen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Giftschaden und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Giftschaden, Ausgelaugt 1 und Kraftlos 1."
+        }
+      },
+      "moonmilk-toxin": {
+        "Name": "Mondmilch-Toxin",
+        "Description": "Eine giftige mineralische Paste aus tiefen Höhlen ruft Taubheit und einen beunruhigenden Verlust des Körpergefühls hervor.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Unbeholfen 2 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Giftschaden, Unbeholfen 2 und Benommen 2."
+        }
+      },
+      "obsidian-scorpion-venom": {
+        "Name": "Obsidianskorpiongift",
+        "Description": "Das pechschwarze Gift eines vulkanischen Skorpions schickt stechende Hitze durch Nerven und Muskeln.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Giftschaden und 1W6 Feuerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Giftschaden, 1W6 Feuerschaden und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Giftschaden, 2W6 Feuerschaden und Unbeholfen 2."
+        }
+      },
+      "assassins-sap": {
+        "Name": "Assassinenharz",
+        "Description": "Ein zähes, nahezu farbloses Harz, das Waffen überzieht und die Beine eines Opfers rasch schwer werden lässt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Giftschaden und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Giftschaden, Unbeholfen 1 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Giftschaden, Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "glassfang-venom": {
+        "Name": "Glaszahngift",
+        "Description": "Das Gift einer seltenen transparenten Schlange lässt Blutgefäße unter der Haut platzen und schwächt die Glieder.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 Giftschaden und 1W6 anhaltender Blutungsschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 Giftschaden, 1W6 anhaltender Blutungsschaden und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6W6 Giftschaden, 2W6 anhaltender Blutungsschaden und Kraftlos 1."
+        }
+      },
+      "grave-lotus-distillate": {
+        "Name": "Grablotos-Destillat",
+        "Description": "Aus blassen Blüten destilliert, legt dieses Gift einen kalten Schleier über Gedanken und Kreislauf.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1 und Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Leerschaden, Benommen 2 und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Leerschaden, Benommen 2 und Ausgelaugt 1."
+        }
+      },
+      "storm-eel-toxin": {
+        "Name": "Sturmaalgift",
+        "Description": "Ein elektrisierendes Nervengift aus großen Hochseeaalen lässt Muskeln unkontrolliert zucken.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 Giftschaden, 2W6 Elektrizitätsschaden und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 Giftschaden, 2W6 Elektrizitätsschaden und Unbeholfen 2."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6W6 Giftschaden, 3W6 Elektrizitätsschaden, Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "widowmaker-compound": {
+        "Name": "Witwenmacher-Komposit",
+        "Description": "Ein professionelles Klingengift, das den Kreislauf angreift und selbst kräftige Ziele rasch auszehrt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 Giftschaden und Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 Giftschaden, Ausgelaugt 1 und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7W6 Giftschaden, Ausgelaugt 2 und Kraftlos 1."
+        }
+      },
+      "ash-manticore-venom": {
+        "Name": "Aschenmantikor-Gift",
+        "Description": "Dieses körnige Gift aus den Schwanzstacheln vulkanischer Mantikore brennt heiß und macht die Glieder schwer.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 Giftschaden und 2W6 Feuerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 Giftschaden, 2W6 Feuerschaden und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7W6 Giftschaden, 3W6 Feuerschaden und Kraftlos 2."
+        }
+      },
+      "basilisk-bile": {
+        "Name": "Basiliskengalle",
+        "Description": "Die ätzende Galle eines Basilisken greift Muskeln und Nerven an und lässt Bewegungen immer steifer werden.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 Giftschaden, 2W6 Säureschaden und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 Giftschaden, 2W6 Säureschaden, Unbeholfen 2 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "8W6 Giftschaden, 3W6 Säureschaden, Unbeholfen 2 und Verlangsamt 2."
+        }
+      },
+      "red-crown-serpent-venom": {
+        "Name": "Rotkronenschlangengift",
+        "Description": "Das hochwirksame Gift dieser Bergschlange stört Herzschlag und Gleichgewicht und kann Opfer völlig bewegungsunfähig machen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6W6 Giftschaden, Unbeholfen 1 und Kraftlos 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "7W6 Giftschaden, Unbeholfen 2, Kraftlos 2 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "8W6 Giftschaden, Unbeholfen 2, Kraftlos 2 und Verlangsamt 2."
+        }
+      },
+      "emperor-scorpion-venom": {
+        "Name": "Kaiserskorpiongift",
+        "Description": "Das schwere Gift eines riesigen Kaiserskorpions verursacht Gewebeschäden und lässt den Kreislauf einbrechen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6W6 Giftschaden und Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "8W6 Giftschaden, Ausgelaugt 2 und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "10W6 Giftschaden, Ausgelaugt 2 und Kraftlos 2."
+        }
+      },
+      "voidwasp-venom": {
+        "Name": "Leerenwespengift",
+        "Description": "Das Gift extraplanarer Wespen kühlt das Blut und frisst zugleich an Lebenskraft und Wahrnehmung.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6W6 Giftschaden, 3W6 Leerschaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "8W6 Giftschaden, 3W6 Leerschaden, Benommen 2 und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "10W6 Giftschaden, 4W6 Leerschaden, Benommen 2 und Ausgelaugt 2."
+        }
+      },
+      "wyrm-gall-toxin": {
+        "Name": "Wyrmgallen-Toxin",
+        "Description": "Aus der Galle eines giftresistenten Drachen gewonnen, reagiert dieses Toxin aggressiv auf magische Energie im Körper.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "7W6 Giftschaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "9W6 Giftschaden, Benommen 2 und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "11W6 Giftschaden, Benommen 3 und Übel 2."
+        }
+      },
+      "nightglass-poison": {
+        "Name": "Nachtglasgift",
+        "Description": "Ein okkultes Klingengift, dessen schwarze Kristalle Sinneseindrücke zerbrechen und Gedanken in falsche Bilder zerlegen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "8W6 Giftschaden, 3W6 mentaler Schaden und Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "10W6 Giftschaden, 3W6 mentaler Schaden, Benommen 2 und Geblendet."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "12W6 Giftschaden, 4W6 mentaler Schaden, Benommen 2 und Verwirrt."
+        }
+      },
+      "starved-god-ichor": {
+        "Name": "Sekret des Hungernden Gottes",
+        "Description": "Dieses verbotene Gift wird aus fremdartigem Sekret gewonnen und lässt Fleisch zugleich welken und nach unmöglicher Nahrung verlangen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "8W6 Giftschaden, 4W6 Leerschaden und Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "10W6 Giftschaden, 4W6 Leerschaden, Übel 2 und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "12W6 Giftschaden, 5W6 Leerschaden, Übel 2 und Ausgelaugt 2."
+        }
+      },
+      "eternity-serpent-venom": {
+        "Name": "Ewigkeitsschlangengift",
+        "Description": "Das Gift einer planar gebundenen Riesenschlange lässt jeden Herzschlag endlos erscheinen und zerreißt Körpergefühl und Zeitwahrnehmung.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "9W6 Giftschaden, 4W6 mentaler Schaden und Verlangsamt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "11W6 Giftschaden, 5W6 mentaler Schaden, Verlangsamt 2 und Benommen 2."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "13W6 Giftschaden, 6W6 mentaler Schaden, Verlangsamt 2, Benommen 3 und Verwirrt."
+        }
+      },
+      "sovereign-toxin": {
+        "Name": "Souveränengift",
+        "Description": "Ein nahezu mythisches Attentatsgift. Es zerlegt den Körper schichtweise, bis Herz, Nerven und Atem gleichzeitig versagen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "10W6 Giftschaden, Ausgelaugt 1 und Kraftlos 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "12W6 Giftschaden, Ausgelaugt 2, Kraftlos 2 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "14W6 Giftschaden, Ausgelaugt 3, Kraftlos 2 und Verlangsamt 2."
+        },
+        "Stage4": {
+          "Name": "Phase 4",
+          "Description": "16W6 Giftschaden und Todeseffekt."
+        }
+      }
+    }
+  }
+}
